@@ -2,6 +2,6 @@
 #
 # This class is called from lablocal for Letsencrypt certificates
 #
-class lablocal::nonsslvhosts {
+class lablocal::letsencryptcerts {
   hiera_resources('apache-letsencryptcerts')
 }
