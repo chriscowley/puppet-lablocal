@@ -1,0 +1,33 @@
+{
+  "name": "chriscowley-lablocal",
+  "version": "0.1.0",
+  "author": "chriscowley",
+  "summary": "Local settings for my lab",
+  "license": "Apache-2.0",
+  "source": "https://gogs.chriscowley.me.uk/puppet/chriscowley-lablocal.git",
+  "project_page": "https://gogs.chriscowley.me.uk/puppet/chriscowley-lablocal",
+  "issues_url": "https://gogs.chriscowley.me.uk/puppet/chriscowley-lablocal/issues",
+  "dependencies": [
+    {
+      "name": "puppetlabs-stdlib",
+      "version_requirement": ">= 1.0.0"
+    }
+  ],
+  "operatingsystem_support": [
+    {
+      "operatingsystem": "Debian",
+      "operatingsystemrelease": [
+        "6",
+        "7"
+      ]
+    },
+    {
+      "operatingsystem": "RedHat",
+      "operatingsystemrelease": [
+        "5",
+        "6",
+        "7"
+      ]
+    }
+  ]
+}
