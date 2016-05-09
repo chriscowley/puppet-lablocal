@@ -2,6 +2,6 @@
 #
 # This class is called from lablocal for Apache Vhosts
 #
-class lablocal::nonsslvhosts {
+class lablocal::sslvhosts {
   hiera_resources('apache-ssl-vhosts')
 }
